@@ -1,5 +1,7 @@
 #!/bin/bash
 
+PRE_INF=$IFS
+IFS=$'\n'
 FRUITS_LIST=$(cat << EOS
 banana 100yen
 orange 120yen
@@ -12,3 +14,5 @@ do
   #品目と値段を表示
   echo $FRUITS
 done
+
+IFS=$PRE_INF
