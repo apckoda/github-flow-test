@@ -1,5 +1,5 @@
 #!/bin/bash
 
-c=`expr 5 * 3`
+c=`expr 5 \* 3`
 
 echo $c
