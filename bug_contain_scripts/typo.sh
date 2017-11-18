@@ -3,4 +3,4 @@
 set -u
 HOGE=10
 
-echo $HOE
+echo $HOGE
